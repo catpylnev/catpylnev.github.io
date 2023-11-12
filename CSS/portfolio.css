@@ -53,12 +53,6 @@ p{
     font-size: 20px;
 }
 
-/*paragraph hover*/
-p:hover{
-    transition: transform 1s;
-        transform: scale(1.01);
-}
-
 /*center class*/
 .center{
     text-align: center;
