@@ -37,7 +37,7 @@ h1:hover{
 /* styling for portfolio title text */
 .white-text{
     color: #fff;
-    padding-top: 10vh;
+    padding-top: 0.5vh;
 }
 
 /*paragraph elements*/
@@ -62,7 +62,7 @@ p{
 /* center class hover effect*/
 .center:hover{
     transition: transform 2s;
-    transform: scale(1.1);
+    transform: scale(1.025);
 }
 
 /*anchor elements*/
@@ -115,7 +115,7 @@ footer{
     width: 100%;
     z-index: 1;
     -webkit-animation: moveNav 5s;
-    animation: moveNav 5s;
+    animation: moveNav 2s;
 }
 
 @keyframes moveNav{
@@ -302,6 +302,7 @@ footer{
     width: 50%;
     padding: 10px;
     padding-top: 1%;
+    padding-bottom: 3%;
     height: 400px;
     background-color: #f0ebe1;
 }
@@ -317,6 +318,7 @@ footer{
     width: 50%;
     padding: 10px;
     padding-top: 1%;
+    padding-bottom: 3%;
     height: 400px;
     background-color: #dcd6c1;
 }
